@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "wordle",
+  "description": "",
+  "version": "1.0",
+  
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+
+  "browser_action": {
+    "default_icon": "logo.png"
+  },
+
+  "permissions": ["tabs"],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
